@@ -1,0 +1,106 @@
+body {
+  background-color: #dceefb;
+}
+
+h2 {
+  color: #085fa3;
+  margin-top: 125px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: "Roboto";
+}
+h3 {
+  color: #085fa3;
+
+  text-align: center;
+  margin-top: 25px;
+  font-size: large;
+}
+h4 {
+  color: #085fa3;
+
+  text-align: left;
+  margin-left: 70px;
+
+  font-size: large;
+}
+h5 {
+  color: #085fa3;
+
+  text-align: right;
+
+  margin-right: 70px;
+  font-size: large;
+}
+
+.write-icon {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  image-rendering: crisp-edges;
+}
+.screen-icon {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  image-rendering: crisp-edges;
+}
+.chat-icon {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  image-rendering: crisp-edges;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.download-btn {
+  border: 2px solid #fff;
+  background-color: #0099cc;
+  border-color: #dceefb;
+  width: 200px;
+  height: 50px;
+  font-size: medium;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 750px;
+  margin-right: auto;
+  color: white;
+}
+.download-btn2 {
+  border: 2px solid #fff;
+  background-color: #0099cc;
+  border-color: #dceefb;
+  width: 200px;
+  height: 50px;
+  font-size: medium;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 750px;
+  margin-left: auto;
+  color: white;
+}
+
+.download-btn:hover {
+  color: #0099cc;
+  background-color: #fff;
+  border: 2px solid #0099cc;
+  cursor: pointer;
+}
+.download-btn2:hover {
+  color: #0099cc;
+  background-color: #fff;
+  border: 2px solid #0099cc;
+  cursor: pointer;
+}
