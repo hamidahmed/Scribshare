@@ -1,18 +1,18 @@
 .app-layout {
   display: grid;
-  height: 100vh;
+  height: 120vh;
   grid-template-columns: 100px 250px 1fr;
-  grid-template-rows: auto 1fr 100px;
+  grid-template-rows: 0 1fr auto;
 }
 .teams {
   grid-column: 1;
   grid-row: 1 / 4;
   background-color: #085fa3;
   color: blanchedalmond;
-  margin-top: 25px;
   text-align: center;
   position: relative;
   height: 100%;
+  margin-top: 20px;
 }
 
 .channels {
@@ -23,17 +23,33 @@
   color: blanchedalmond;
   position: relative;
   height: 100%;
-  margin-top: 25px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-.users {
-  grid-column: 4;
-  grid-row: 1 / 4;
-  background-color: #085fa3;
-  text-align: center;
-  color: blanchedalmond;
-  position: relative;
-  height: 100%;
-  width: 100px;
-  margin-top: 25px;
+.nav-btn button {
+  background-color: #0099cc;
+  color: #fff;
+  border: none;
+  width: 245px;
+  height: 40px;
+  margin-top: 0.5rem;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: medium;
+  text-align: left;
+}
+.doc-icon,
+.friend-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 40px;
+  image-rendering: crisp-edges;
+}
+.nav-btn button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  cursor: pointer;
 }
