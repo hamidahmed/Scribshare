@@ -1,5 +1,5 @@
 .body {
-  background-color: #dceefb;
+  background-color: #315345;
 }
 
 .wrapper {
@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #e0f0fa;
+  background-color: #315345;
 }
 
 .form-wrapper {
@@ -21,8 +21,7 @@
   align-items: center;
   padding: 40px 60px;
   border-radius: 10px;
-  box-shadow: 0px 10px 50px #e0f0fa;
-  background-color: #ffffff;
+  background-color: #edf2ef;
 }
 
 form {
@@ -81,9 +80,10 @@ input.error {
 }
 
 .createAccount button {
-  background-color: #0099cc;
-  color: #fff;
-  border: 2px solid #fff;
+  background-color: #4f9f80;
+  border-color: #edf2ef;
+  color: #edf2ef;
+  border: 2px solid #edf2ef;
   width: 350px;
   margin-top: 1rem;
   padding: 8px 0px;
@@ -93,8 +93,8 @@ input.error {
 }
 
 .createAccount button:hover {
-  color: #0099cc;
-  background-color: #fff;
-  border: 2px solid #0099cc;
+  color: #4f9f80;
+  background-color: #edf2ef;
+  border: 2px solid #4f9f80;
   cursor: pointer;
 }

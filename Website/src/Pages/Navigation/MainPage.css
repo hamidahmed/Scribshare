@@ -1,23 +1,23 @@
 body {
-  background-color: #dceefb;
+  background-color: #315345;
 }
 
 h2 {
-  color: #085fa3;
+  color: #edf2ef;
   margin-top: 125px;
   text-align: center;
   font-size: xx-large;
   font-weight: "Roboto";
 }
 h3 {
-  color: #085fa3;
+  color: #edf2ef;
 
   text-align: center;
   margin-top: 25px;
   font-size: large;
 }
 h4 {
-  color: #085fa3;
+  color: #edf2ef;
 
   text-align: left;
   margin-left: 70px;
@@ -25,7 +25,7 @@ h4 {
   font-size: large;
 }
 h5 {
-  color: #085fa3;
+  color: #edf2ef;
 
   text-align: right;
 
@@ -33,30 +33,6 @@ h5 {
   font-size: large;
 }
 
-.write-icon {
-  width: 150px;
-  height: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  image-rendering: crisp-edges;
-}
-.screen-icon {
-  width: 150px;
-  height: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  image-rendering: crisp-edges;
-}
-.chat-icon {
-  width: 150px;
-  height: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  image-rendering: crisp-edges;
-}
 .row {
   display: flex;
 }
@@ -66,9 +42,9 @@ h5 {
   padding: 5px;
 }
 .download-btn {
-  border: 2px solid #fff;
-  background-color: #0099cc;
-  border-color: #dceefb;
+  border: 2px solid;
+  background-color: #4f9f80;
+  border-color: #edf2ef;
   width: 200px;
   height: 50px;
   font-size: medium;
@@ -76,12 +52,12 @@ h5 {
   margin-top: 10px;
   margin-left: 750px;
   margin-right: auto;
-  color: white;
+  color: #edf2ef;
 }
 .download-btn2 {
-  border: 2px solid #fff;
-  background-color: #0099cc;
-  border-color: #dceefb;
+  border: 2px solid;
+  background-color: #4f9f80;
+  border-color: #edf2ef;
   width: 200px;
   height: 50px;
   font-size: medium;
@@ -89,18 +65,18 @@ h5 {
   margin-top: 10px;
   margin-right: 750px;
   margin-left: auto;
-  color: white;
+  color: #edf2ef;
 }
 
 .download-btn:hover {
-  color: #0099cc;
-  background-color: #fff;
-  border: 2px solid #0099cc;
+  color: #4f9f80;
+  background-color: #edf2ef;
+  border: 2px solid #4f9f80;
   cursor: pointer;
 }
 .download-btn2:hover {
-  color: #0099cc;
-  background-color: #fff;
-  border: 2px solid #0099cc;
+  color: #4f9f80;
+  background-color: #edf2ef;
+  border: 2px solid #4f9f80;
   cursor: pointer;
 }

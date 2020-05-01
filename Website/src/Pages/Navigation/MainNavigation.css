@@ -2,7 +2,7 @@
   width: 3rem;
   height: 3rem;
   background: transparent;
-  border: none;
+  border: 2px red;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -19,7 +19,6 @@
 
 .main-navigation__title {
   color: white;
-  text-shadow: 3px 2px #085fa3;
 }
 
 .main-navigation__title a {

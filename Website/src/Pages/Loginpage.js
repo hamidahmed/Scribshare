@@ -3,7 +3,7 @@ import React from "react";
 import MainPage from "./Navigation/MainPage";
 import "./Loginpage.css";
 import MainNavigation from "./Navigation/MainNavigation";
-const Loginpage = props => {
+const Loginpage = (props) => {
   return (
     <div>
       <MainNavigation />
