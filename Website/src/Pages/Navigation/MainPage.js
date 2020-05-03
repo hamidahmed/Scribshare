@@ -6,7 +6,7 @@ import styles from "./MainPage.css";
 import write from "../../write.png";
 import screen from "../../screen.png";
 import chat from "../../chat.png";
-const MainPage = props => {
+const MainPage = (props) => {
   return (
     <body>
       <MainNavigation />
@@ -28,7 +28,14 @@ const MainPage = props => {
       </div>
       <div class="row">
         <button onClick="Download()" class="download-btn">
-          Download
+          <a
+            href="https://drive.google.com/uc?id=19e8B30jBAfLXNEiqe2P_gOR1okLAm1d7"
+            download
+          >
+            <button onClick="Download()" class="download-btn">
+              Download
+            </button>
+          </a>
         </button>
         <button onClick="Download()" class="download-btn2">
           Continue to Browser

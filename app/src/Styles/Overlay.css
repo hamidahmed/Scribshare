@@ -1,0 +1,116 @@
+/* Main container that holds everything */
+
+#wrapper {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: auto;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+/* Vertical line to show new view */
+
+#seperator {
+  border: 0;
+  height: 1px;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    #f8f8f8,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+/* The top bar to move around the window and exit/resize */
+
+#optionsTab {
+  background-color: #75e8e0;
+  width: 100%;
+  min-width: 1280px;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* The exit minus and resize buttons */
+
+#windowsCommands {
+  background-color: green;
+  height: 20px;
+  width: 60px;
+}
+
+/* Side bar contains the menu buttons and groups logos */
+
+#sideBar {
+  background-color: #75e8e0;
+  width: 100%;
+  height: 100%;
+  min-height: 700px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+/* Main window for current task */
+
+#taskView {
+  background-color: skyblue;
+  width: calc(100vw - 281px);
+  height: calc(100vh - 60px);
+}
+
+#taskBar {
+  background-color: teal;
+  width: calc(100vw - 281px);
+  height: 40px;
+}
+
+/* Container for the groups */
+
+#groups {
+  background-color: crimson;
+  width: 60px;
+  height: 100%;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+/* Container for the menu and interavtive view */
+
+#menus {
+  background-color: #707070;
+  width: 201px;
+  height: 100%;
+  border-top-left-radius: 10px;
+}
+
+/* The button that changes the task view */
+
+#Profile {
+  background-color: purple;
+  width: 100%;
+  height: 15%;
+  border-top-left-radius: inherit;
+}
+
+/* The interactive freinds list view */
+
+#interactiveView {
+  background-color: crimson;
+  width: 100%;
+  height: calc(100vh - 259px);
+}
+
+/* button to take back to scribble */
+#logoButton {
+  background-color: crimson;
+  width: 100%;
+  height: 45px;
+}
