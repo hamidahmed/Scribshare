@@ -29,7 +29,7 @@
 /* The top bar to move around the window and exit/resize */
 
 #optionsTab {
-  background-color: #75e8e0;
+  background-color: #50db77;
   width: 100%;
   min-width: 1280px;
   height: 20px;
@@ -48,7 +48,7 @@
 /* Side bar contains the menu buttons and groups logos */
 
 #sideBar {
-  background-color: #75e8e0;
+  background-color: #50db77;
   width: 100%;
   height: 100%;
   min-height: 700px;
@@ -60,13 +60,13 @@
 /* Main window for current task */
 
 #taskView {
-  background-color: skyblue;
+  background-color: white;
   width: calc(100vw - 281px);
   height: calc(100vh - 60px);
 }
 
 #taskBar {
-  background-color: teal;
+  background-color: #315345;
   width: calc(100vw - 281px);
   height: 40px;
 }
@@ -85,7 +85,7 @@
 /* Container for the menu and interavtive view */
 
 #menus {
-  background-color: #707070;
+  background-color: #315345;
   width: 201px;
   height: 100%;
   border-top-left-radius: 10px;
@@ -96,7 +96,7 @@
 #Profile {
   background-color: purple;
   width: 100%;
-  height: 15%;
+  height: 100px;
   border-top-left-radius: inherit;
 }
 
