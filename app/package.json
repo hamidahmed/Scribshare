@@ -16,7 +16,7 @@
     "electron-is-dev": "^1.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "react-start": "react-scripts start",
@@ -46,6 +46,6 @@
     "concurrently": "^5.2.0",
     "electron": "^8.2.5",
     "electron-builder": "^22.6.0",
-    "wait-on": "^4.0.2"
+    "wait-on": "^9.0.3"
   }
 }
